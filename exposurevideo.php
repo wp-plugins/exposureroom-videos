@@ -30,7 +30,11 @@ class exposureroom_video_embed {
 
       curl_setopt($ch, CURLOPT_URL, "http://exposureroom.com/WordPressShortCodeHandler.aspx?$attributes");
       curl_setopt($ch, CURLOPT_HEADER, 0);
-      return curl_exec($ch);
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+      $output = curl_exec($ch);
+      curl_close($ch);
+      return $output;      
     }
 }
 
