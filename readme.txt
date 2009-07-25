@@ -26,46 +26,46 @@ We hope you find this plug-in useful.
 == Frequently Asked Questions ==
 The following describes the attributes you need to provide in the [xr_video] tag and how to determine their values.
 
-<h4>Id (Required):</h4>
+<h4>id (Required):</h4>
 The id attribute is a required attribute. The value of id attribute is the id of the asset (video) on ExposureRoom. If you’re not sure what the id of your video is then while on the Asset Display page (the page you view a video on), take a look at the address bar of your browser. For example:
 [Click Here to see an example url in your browser](
 http://exposureroom.com/members/skumar.aspx/assets/4c0151e5f72941f682d49eca99ed7e4a/ “Visit an Asset Display Page on ExposureRoom”)
 
 The last portion of the url is the id of the asset. Do not include the forward slashes but rather just the stuff between the last two forward slashes.
 
-<h4>Size (Required):</h4>
+<h4>size (Required):</h4>
 The size attribute can have the following values:
 
-sm – Small
-md – Medium
+sm – Small<br/>
+md – Medium<br/>
 lr – HD Version
 
 <h4>viewOnXR (Optional)</h4>
 This attribute controls the link "View on ExposureRoom" that appears below the video. This link will link back to the Asset Display Page of this video on ExposureRoom.
 This attribute can have the following values:
 
-true - Show the link
-false - Don't show the link
+true - Show the link<br/>
+false - Don't show the link<br/>
 
-The default value of this attribute is "true"
+The default value of this attribute is "true".
 
 <h4>title (Optional)</h4>
 This attribute controls turning on/off the title of the video. The title appears <b>below the player</b> and <b>outside</b> the player.
 This attribute can have the following values:
 
-true - Show the title
-false - Don't show the title
+true - Show the title<br/>
+false - Don't show the title<br/>
 
-The default value of this attribute is "false"
+The default value of this attribute is "false".
 
 <h4>description (Optional)</h4>
 This attribute controls the turning on/off of the description of the video. The description appears <b>below the player</b> and <b>outside</b> the player as well as <b>below</b> the title if it has been turned on.
 This attribute can have the following values:
 
-true - Show the description
-false - Don't show the description
+true - Show the description<br/>
+false - Don't show the description<br/>
 
-The default value of this attribute is "false"
+The default value of this attribute is "false".
 
 
 <h4>titleColor (Optional):</h4>
