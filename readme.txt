@@ -26,24 +26,55 @@ We hope you find this plug-in useful.
 == Frequently Asked Questions ==
 The following describes the attributes you need to provide in the [xr_video] tag and how to determine their values.
 
-Id (Required):
+<h4>Id (Required):</h4>
 The id attribute is a required attribute. The value of id attribute is the id of the asset (video) on ExposureRoom. If you’re not sure what the id of your video is then while on the Asset Display page (the page you view a video on), take a look at the address bar of your browser. For example:
 [Click Here to see an example url in your browser](
 http://exposureroom.com/members/skumar.aspx/assets/4c0151e5f72941f682d49eca99ed7e4a/ “Visit an Asset Display Page on ExposureRoom”)
 
 The last portion of the url is the id of the asset. Do not include the forward slashes but rather just the stuff between the last two forward slashes.
 
-Size (Required):
+<h4>Size (Required):</h4>
 The size attribute can have the following values:
+
 sm – Small
 md – Medium
 lr – HD Version
 
-titleColor (Optional):
-The titleColor attribute is optional and expects colors in hexadecimal notation. Simple color names are supported as well. For example:
+<h4>viewOnXR (Optional)</h4>
+This attribute controls the link "View on ExposureRoom" that appears below the video. This link will link back to the Asset Display Page of this video on ExposureRoom.
+This attribute can have the following values:
+
+true - Show the link
+false - Don't show the link
+
+The default value of this attribute is "true"
+
+<h4>title (Optional)</h4>
+This attribute controls turning on/off the title of the video. The title appears <b>below the player</b> and <b>outside</b> the player.
+This attribute can have the following values:
+
+true - Show the title
+false - Don't show the title
+
+The default value of this attribute is "false"
+
+<h4>description (Optional)</h4>
+This attribute controls the turning on/off of the description of the video. The description appears <b>below the player</b> and <b>outside</b> the player as well as <b>below</b> the title if it has been turned on.
+This attribute can have the following values:
+
+true - Show the description
+false - Don't show the description
+
+The default value of this attribute is "false"
+
+
+<h4>titleColor (Optional):</h4>
+This attribute controls the color of the title of the video <b>inside</b> the player. Due to the poster frame of the video, it is possible that the title and creator are not visible clearly. So this attribute allows you to change the color of the title to a contrasting color.
+The titleColor attribute expects colors in hexadecimal notation. Simple color names are supported as well. For example:
 <p>
 <code>#ffffff – White</code><br />
 <code>#000000 – Black</code>
 </p>
+
 Please visit [this discussion forum](
 http://exposureroom.com/newsgroups/view.aspx?t=303)
