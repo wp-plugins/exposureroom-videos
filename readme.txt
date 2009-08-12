@@ -40,6 +40,10 @@ sm – Small<br/>
 md – Medium<br/>
 lr – HD Version
 
+
+<h4>width (Optional)</h4>
+This attribute allows you to control the width of your embedded video. By default the width is determined by the size attribute. However, you can re-size the video using this attribute. The height is calculated automatically so as to maintain the correct aspect ratio of your video. A positive integer is expected as the value of this attribute.
+
 <h4>viewOnXR (Optional)</h4>
 This attribute controls the link "View on ExposureRoom" that appears below the video. This link will link back to the Asset Display Page of this video on ExposureRoom.
 This attribute can have the following values:
