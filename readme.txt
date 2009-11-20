@@ -32,7 +32,7 @@ you can watch a video those show you how to use the plug-in and the various cust
 The following describes the attributes you need to provide in the [xr_video] tag and how to determine their values.
 
 <h4>id (Required):</h4>
-The id attribute is a required attribute. The value of id attribute is the id of the asset (video) on ExposureRoom. If you’re not sure what the id of your video is then while on the Asset Display page (the page you view a video on), take a look at the address bar of your browser. For example:
+The id attribute is a required attribute. The value of id attribute is the id of the asset (video) on ExposureRoom. If you are not sure what the id of your video is then while on the Asset Display page (the page you view a video on), take a look at the address bar of your browser. For example:
 [Click Here to see an example url in your browser](
 http://exposureroom.com/members/skumar.aspx/assets/4c0151e5f72941f682d49eca99ed7e4a/ “Visit an Asset Display Page on ExposureRoom”)
 
@@ -41,9 +41,9 @@ The last portion of the url is the id of the asset. Do not include the forward s
 <h4>size (Required):</h4>
 The size attribute can have the following values:
 
-sm – Low Bandwith Version<br/>
-md – Medium Bandwidth Version<br/>
-lr – HD Version
+sm - Low Bandwith Version<br/>
+md - Medium Bandwidth Version<br/>
+lr - HD Version
 
 
 <h4>width (Optional)</h4>
