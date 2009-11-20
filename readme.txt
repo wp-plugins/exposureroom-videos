@@ -18,7 +18,8 @@ One of the nice things about this plug-in is that it is dynamic. This has two ad
 3. When visitors to your website browse your site using an <b>iPhone</b>, this plug-in will automatically switch over to display the iPhone version of the video.
  
 you can watch a video those show you how to use the plug-in and the various customization options available.
-<a href="http://exposureroom.com/members/skumar.aspx/assets/77178637ca8242a3b764c9da033055fe/"><img src="http://exposureroom.com/getassetthumbnailimage.aspx?id=77178637ca8242a3b764c9da033055fe&size=sm" alt="ExposureRoom WordPress Plug-in Tutorial"/></a>
+<img src="http://exposureroom.com/getassetthumbnailimage.aspx?id=77178637ca8242a3b764c9da033055fe&size=sm" alt="ExposureRoom WordPress Plug-in Tutorial"/><br/>
+[Click Here to Watch the Video](http://exposureroom.com/members/skumar.aspx/assets/77178637ca8242a3b764c9da033055fe/)
 
 == Installation ==
 
