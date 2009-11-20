@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: matlus
 Donate link: http://exposureroom.com/
-Tags: video, embed, exposureroom, shortcode
+Tags: video, embed, exposureroom, shortcode, HD Video
 Requires at least: 2.0.2
 Tested up to: 2.8.2
 Stable tag: 1.0
@@ -39,8 +39,8 @@ The last portion of the url is the id of the asset. Do not include the forward s
 <h4>size (Required):</h4>
 The size attribute can have the following values:
 
-sm – Small<br/>
-md – Medium<br/>
+sm – Low Bandwith Version<br/>
+md – Medium Bandwidth Version<br/>
 lr – HD Version
 
 
