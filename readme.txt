@@ -23,9 +23,10 @@ you can watch a video those show you how to use the plug-in and the various cust
 
 == Installation ==
 
-1. Upload “exposurevideo.php” to the “/wp-content/plugins/” directory
-1. Activate the plugin through the “Plugins” menu in WordPress
-1. Place the [xr_video] tag in your templates
+1. Upload "exposurevideo.php" to the "/wp-content/plugins/" directory
+1. Activate the plugin through the "Plugins" menu in WordPress
+1. Get the WordPress Embed Tags for the Video in Question from ExposureRoom.
+1. Place the [xr_video] tag in your blog post in the place you'd like your video to show.
 
 == Frequently Asked Questions ==
 The following describes the attributes you need to provide in the [xr_video] tag and how to determine their values.
