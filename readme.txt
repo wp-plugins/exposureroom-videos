@@ -14,8 +14,11 @@ One of the nice things about this plug-in is that it is dynamic. This has two ad
 1. If you change the dimensions of your video (say you cropped it later) this plug-in will react immediately to the new dimensions without you having to do anything.
  
 2. If we change things about our player such as a new design that requires new overall dimensions or if we allow fullscreen viewing (as we've recently done) for embedded videos, this plug-in will react immediately so you don't have to change your embed code.
+
+3. When visitors to your website browse your site using an <b>iPhone</b>, this plug-in will automatically switch over to display the iPhone version of the video.
  
-We hope you find this plug-in useful.
+you can watch a video those show you how to use the plug-in and the various customization options available.
+<a href="http://exposureroom.com/members/skumar.aspx/assets/77178637ca8242a3b764c9da033055fe/"><img src="http://exposureroom.com/getassetthumbnailimage.aspx?id=77178637ca8242a3b764c9da033055fe&size=sm" alt="ExposureRoom WordPress Plug-in Tutorial"/></a>
 
 == Installation ==
 
